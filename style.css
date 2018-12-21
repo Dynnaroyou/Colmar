@@ -1,0 +1,332 @@
+html{
+   font-family: Helvetica, sans-serif;
+   width: 100%;
+}
+p{
+}
+body{
+   color: #333333;
+}
+/*Header*/
+.header_a{
+   padding-right: 1.5rem;
+   padding-left: 1.5rem;
+   height: 4rem;
+   background-color: white;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: right;
+   max-width: auto;
+   /*----> (is it wise to add this, for better effect?) position: fixed;*/
+
+}
+.header_a .img_1{
+   display: flex;
+   flex-wrap: nowrap;
+   color: #666666;
+   font-size: 1rem;
+
+}
+.header_a .img_1 span{
+   color: #424242;
+
+}
+nav{
+
+}
+.header_a nav li{
+   display: inline-block;
+   justify-content: flex-end;
+
+   color: darkgray;
+   text-align: right;
+   list-style: none;
+
+}
+.header_a nav li a {
+   color: #000000;
+   text-decoration: none;
+   margin: 1rem;
+}
+/*SectionA-Learn*/
+.container_a {
+   background-color: #e0e0e0;
+   max-width: auto;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   flex-direction: row;
+   padding: 0.2rem;
+
+}
+.text_a{
+   justify-content: center;
+   font-weight: bold;
+   margin: 1rem;
+}
+.text_a h2{
+   font-size: 4.5rem;
+   text-align: left;
+   color: #333333;
+}
+.text_a p{
+   font-size: 1.5rem;
+   text-align: left;
+   color: #424242;
+}
+.text_a span a{
+   color: white;
+   text-decoration: none;
+   display: block;
+   background-color: #424242;
+   text-align: center;
+
+   max-width: 100%;
+   padding: .75rem;
+   height: 2.5rem;
+   font-size: 2rem;
+   color: white;
+}
+.container_a img {
+   margin: 32px 24px;
+   padding: auto;
+}
+/*SectionB-Practicing*/
+.container_b {
+   display:flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+   max-width: auto;
+}
+/*--Left side of section*/
+.minipart_b{
+   max-width: 75%;
+   margin: 1.5rem;
+   border-right: 2px solid lightgray;
+
+}
+.minipart_b h2{
+   font-size: 3rem;
+}
+.minipart_b p{
+   font-size:1rem;
+}
+.minipart_b span{
+   font-size: .8rem;
+}
+/*--Right side of section*/
+.minipart_b1 {
+   flex-direction: column;
+   display: flex;
+   align-content: center;
+   width: 40%;
+}
+.minipart_b1 img {
+   max-width: 35%;
+   margin: 1rem;
+   align-content: center;
+}
+.minipart_b1 h4{
+   font-size: 32px;
+   font-weight: bold;
+}
+.minipart_b1 a{
+   text-decoration: none;
+   color: #5697ff;
+}
+.minipart_b1 span{
+   margin-left: .5rem;
+}
+
+/*--Right side of section-A*/
+.minipart_b2a {
+   display: flex;
+   flex-wrap: nowrap;
+   padding: auto;
+   align-items: center;
+   max-width: 75%;
+}
+/*---Right side of section-B*/
+.minipart_b2b {
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   max-width: 75%;
+}
+/*---Right side of section-C*/
+.minipart_b2c {
+   display: flex;
+   flex-wrap: nowrap;
+   background-color: #e0e0e0;
+   align-items: center;
+   max-width: 75%;
+}
+/*SectionC-Start Learning*/
+.headtitle_c{
+   justify-content: center;
+   text-align: center;
+   font-size: 3rem;
+   font-weight: bold;
+}
+.SectionC{
+   background-color: #e0e0e0;
+   padding:2rem;
+}
+.SectionC h2{
+
+}
+.container_c{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   flex-flow: row wrap;
+   align-content: center;
+   max-width: auto;
+}
+.container_c h4 {
+   font-size: 2rem;
+
+}
+.minipart_ca {
+   display: flex;
+   flex-wrap: nowrap;
+
+}
+.minipart_ca img{
+   object-fit: contain;
+}
+.minipart_ca span {
+}
+.minipart_ca1{
+   display: inline-block;
+   background-color: #ffffff;
+   margin: 1rem;
+   justify-content:  center;
+
+}
+.minipart_ca1text {
+   padding: 1rem;
+}
+.minipart_cb {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-content: center;
+}
+.minipart_cb span {
+   padding: auto;
+}
+.minipart_cb1 {
+   background-color: #ffffff;
+   margin: 1rem;
+   justify-content:  center;
+
+}
+.minipart_cb1text {
+   padding: 1.5rem;
+}
+
+/*SectionD-Thesis Exhibit*/
+.SectionD{
+   margin: 2rem;
+   max-width: auto;
+}
+.SectionD h2{
+   font-size: 3rem;
+   text-align: center;
+
+}
+video{
+   max-width: 75%;
+}
+/*--Whole container of D*/
+.container_d{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   max-width: 80%;
+   align-items: flex-start;
+   padding: auto;
+   margin: 0 auto;
+}
+.minipart_d{
+   max-width: 70%;
+   margin: 0 auto;
+}
+/*---Left side of Section D*/
+.minipart_da{
+   max-width: 75%;
+}
+.minipart_da h4{
+   font-size: 2rem;
+   margin-bottom: .5rem;
+}
+.minipart_da p{
+   margin-bottom: 2rem;
+   font-size: .5rem;
+}
+/*---Right side of SectionD*/
+.minipart_db{
+   margin: 0px;
+   padding: 0px;
+   width: 75%;
+   justify-content: flex-start;
+}
+.minipart_db img{
+   padding: 1rem;
+   border-left: 2px solid gray;
+}
+.minipart_dbtext{
+
+   align-content: center;
+}
+.minipart_dbtext h4{
+   font-size: 1.5rem;
+}
+.minipart_db1{
+   display: flex;
+   flex-wrap: nowrap;
+   background-color: #e0e0e0;
+   margin: auto;
+   align-items: center;
+}
+.minipart_db1 img{
+
+}
+.minipart_db2  {
+   display: flex;
+   align-items: center;
+}
+.minipart_db2 img{
+   object-fit: contain;
+}
+/*Footer*/
+.footer{
+   display: flex;
+   border-top: 1px solid gray;
+   justify-content: space-between;
+   max-width: auto;
+}
+.footer_text1{
+   font-size: .75rem;
+   padding: .5rem;
+}
+.footer_text2 ul li  {
+   display: inline-block;
+   justify-content: flex-end;
+   padding: .5rem;
+   margin-right: .5rem;
+}
+@media only screen and (min-width: 270px), and (max-width: 640px){
+   html{
+      width: 100%;
+   }
+   .container_a {
+      display: none;
+   }
+}

@@ -1,0 +1,26 @@
+html{
+   font-family: Helvetica, sans-serif;
+}
+.header{
+   padding-left: 24px;
+   padding-right: 24px;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   border: 2px solid darkgray;
+}
+.header_a{
+   display: flex;
+   height: 64px;
+   background-color: white;
+   justify-content: flex-start;
+}
+.Navigation{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.Navigation a{
+   color: black;
+   margin: 16px;
+}
