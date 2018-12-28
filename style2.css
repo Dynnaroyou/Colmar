@@ -47,6 +47,14 @@ nav ul li a{
    font-size: 1.25rem;
    color: #eef5db;
 }
+nav ul li a:hover{
+   color: #c7efcf;
+   font-weight: bold;
+}
+
+nav ul li a:active{
+   color: #e63462;
+}
 .mobile{
    display: none;
 }
@@ -91,6 +99,12 @@ nav ul li a{
    text-decoration: none;
    color: #eef5db;
 }
+.text_a span:hover{
+   background-color: #fe5f55;
+}
+.text_a span a:active{
+   color: #e63462;
+}
 .img_a img{
    max-width: 100%;
    height: auto;
@@ -101,6 +115,7 @@ nav ul li a{
    text-align: center;
    font-family: Helvetica, sans-serif;
    margin-top: 1rem;
+   margin: auto;
    border-bottom: 4px solid #c7efcf;
 
    display: flex;
@@ -116,13 +131,15 @@ nav ul li a{
    text-align: left;
    font-size: 1.25rem;
    color: #eef5db;
+   line-height: 1.5rem;
+
 }
 .minipart_b h2{
    font-size: 3rem;
    font-weight: bold;
    color: #c7efcf;
    text-align: left;
-   padding: 1rem;
+   padding: 2rem 0rem;
 }
 .minipart_b span{
    text-align: left;
@@ -150,11 +167,10 @@ nav ul li a{
 }
 .minipart_b2a h4{
    font-size: 3rem;
-   padding: 1rem;
+   padding: 2rem 0rem;
    font-weight: bold;
 }
 .minipart_b2a a{
-   padding:.5rem;
    text-decoration: none;
    color: #eef5db;
    font-weight: bold;
@@ -166,11 +182,13 @@ nav ul li a{
    flex-wrap: nowrap;
    flex-direction: row;
    align-items: center;
-
+}
+.minipart_b2b:hover{
+   background-color: rgb(230, 52, 98);
 }
 .minipart_b2b h4{
    font-size: 3rem;
-   padding: 1rem;
+   padding: 2rem 0rem;
    font-weight: bold;
 
 }
@@ -179,11 +197,9 @@ nav ul li a{
 }
 .minipart_b2b a{
    font-size: 1rem;
-   padding: 1rem;
    text-decoration: none;
    color: #eef5db;
    font-weight: bold;
-
 }
 .minipart_b2c{
    color: #eef5db;
@@ -192,12 +208,15 @@ nav ul li a{
    flex-wrap: nowrap;
    align-items: center;
 }
+.minipart_b2c:hover{
+   background-color: rgb(230, 52, 98);
+}
 .minipart_b2c span{
    text-align: left;
 }
 .minipart_b2c h4{
    font-size: 3rem;
-   padding: 1rem;
+   padding: 2rem 0rem;
    font-weight: bold;
    color: #eef5db;
 }
@@ -207,7 +226,15 @@ nav ul li a{
    color: #eef5db;
    font-weight: bold;
 }
-
+.minipart_b2c a:hover{
+   text-decoration: line-through;
+}
+.minipart_b2b a:hover{
+   text-decoration: line-through;
+}
+.minipart_b2a a:hover{
+   text-decoration: line-through;
+}
 /*Section C- Courses*/
 .container_c{
    border-bottom: 3px solid #fe5f55;
@@ -220,8 +247,15 @@ nav ul li a{
    text-align: center;
    padding: .5rem;
    padding-top: 1rem;
-
+   margin-top: 1rem;
 }
+/*Card Containers*/
+.container_c{
+   margin-bottom: 2rem;
+   padding: 1rem;
+   margin: auto;
+}
+/*Top section of course section*/
 .minipart_ca{
    display: flex;
    flex-wrap: wrap;
@@ -229,18 +263,39 @@ nav ul li a{
 }
 .minipart_ca1 {
    display: block;
+   justify-content: center;
    padding: 1rem;
+   max-width: 30%;
+}
+.minipart_ca1 img{
+   max-width: 100%;
+   box-shadow: 0 2px 6px rgba(0,0,0,.2);
+   margin: 1rem;
+   max-width: 100%;
+   background-color: #e63462;
+}
+.minipart_ca1:hover{
+   opacity: 0.75;
 }
 .minipart_ca1 span{
    display: block;
    color: #eef5db;
    background-color: #e63462;
+   box-shadow: 0 2px 6px rgba(0,0,0,.2);
+
+   max-width: 50%;
+   margin: auto;
+   padding: 1rem;
 }
-.minipart_cb1 span{
-   display: block;
-   color: #eef5db;
-   background-color: #e63462;
+.minipart_ca1text span h4{
+   font-size: 1.5rem;
+   background-color:
 }
+.minipart_ca1text span p{
+   padding: .5rem 0rem;
+   line-height: 1.5rem;
+}
+/*Bottom section of course section*/
 .minipart_cb{
    display: flex;
    flex-wrap: wrap;
@@ -248,11 +303,39 @@ nav ul li a{
 }
 .minipart_cb1{
    padding: 1rem;
-
+   max-width: 75%;
 }
-/*Section D*/
+.minipart_cb1:hover{
+   opacity: 0.75;
+}
+.minipart_cb1 img{
+   box-shadow: 0 2px 6px rgba(0,0,0,.2);
+   margin: 1rem;
+}
+.minipart_cb1 span{
+   display: block;
+   color: #eef5db;
+   background-color: #e63462;
+   box-shadow: 0 2px 6px rgba(0,0,0,.2);
+
+   max-width: 50%;
+   margin: auto;
+   padding: 1rem;
+}
+.minipart_cb1text span h4{
+   font-size: 1.5rem;
+}
+.minipart_cb1text span p{
+   padding: .5rem 0rem;
+   line-height: 1.5rem;
+}
+
+/*Section D -Theis Section*/
 .SectionD{
    font-family: Helvetica;
+   margin: auto;
+   padding: 1.5rem;
+   border-bottom: 3px solid #fe5f55;
 }
 .SectionD h2{
    font-size: 4rem;
@@ -260,38 +343,97 @@ nav ul li a{
    font-style: italic;
    color: #eef5db;
    text-align: center;
-   padding: .5rem;
-   padding-top: 1rem;
+   padding: 2rem .5rem;
+   margin: auto;
 }
 .container_d{
    display: flex;
-   flex-wrap: nowrap;
-   justify-content: flex-start;
-   padding: auto;
+   padding: 1rem;
+   margin: auto;
+   max-width: 100%;
 }
-.minipart_db{
-   justify-content: flex-start;
+/*Left side of Thesis Section*/
+.minipart_d{
+   max-width: 60%;
+   margin: auto;
+   color: #eef5db;
+}
+.minipart_d h4{
+   font-size: 3rem;
 }
 video{
    max-width: 100%;
    padding: 0;
 }
 .minipart_da{
-   display: none;
-   padding: 0;
+   padding: auto;
+}
+.minipart_da h4{
+   padding: 2rem 0rem;
+}
+.minipart_da p{
+   line-height: 1.5rem;
+}
+/*Right side of Thesis Section*/
+.minipart_db{
+   margin: auto;
+   align-items: flex-start;
+   color: #eef5db;
+}
+.minipart_db1{
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+
+   padding: 1rem;
+   margin: 1rem;
+   background-color: #fe5f55;
+}
+.minipart_db1:hover{
+   background-color: rgb(254, 95, 85,0.6);
+}
+.minipart_db2{
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+
+   padding: 1rem;
+   margin: 1rem;
+   background-color: #e63462;
+}
+.minipart_db2:hover{
+   background-color: rgb(230, 52, 98, 0.6);
+}
+.minipart_dbtext{
+   padding: 1.5rem;
+}
+.minipart_dbtext h4{
+   font-size: 2rem;
+}
+.minipart_dbtext p{
+   padding: 1rem 0rem;
 }
 /*Footer*/
 .footer{
+   margin: auto;
    padding: 1rem;
+
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    color: #eef5db;
    font-family: Helvetica;
 }
-.footer_text2{
-   display: none;
+.footer_text2 ul{
+   display: flex;
+   flex-wrap: nowrap;
 }
-
+.footer_text2 li{
+   display: flex;
+   padding: 0rem 1rem;
+}
+.footer_text2 li:hover{
+   color: #e63462;
+}
 /*MOBILE----------------------------------------------------------------------------------->*/
 @media only screen and (max-width: 640px){
    html{
@@ -432,7 +574,6 @@ video{
    }
    .minipart_b2a a{
       width: 100vw;
-      padding:.5rem;
       text-align: left;
       text-decoration: none;
       color: #fe5f56;
@@ -456,18 +597,16 @@ video{
    }
    .minipart_b2b a{
       display: block;
-      padding:.5rem;
       text-decoration: none;
-      color: #eef5db;
       font-weight: bold;
       color: #fe5f56;
+      padding: 0;
    }
    .minipart_b2c  #Mobile{
       max-width: 100%;
    }
    .minipart_b2c{
       color: #eef5db;
-
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
@@ -475,21 +614,24 @@ video{
    .minipart_b2c h4{
       font-size: 1.5rem;
       color: #eef5db;
+      padding: .5rem;
       font-weight: bold;
+   }
+   .minipart_b2c span{
 
    }
    .minipart_b2c a{
       display: block;
       color: #fe5f56;
       text-decoration: none;
-      color: #fe5f56;
       font-weight: bold;
+      padding: 0;
    }
    /*Section C- Courses*/
+   /*--Container for section*/
    .SectionC{
       font-family: Helvetica, sans-serif;
-      border-bottom: 3px solid #3337;
-      padding: .5rem;
+      padding: auto;
    }
    .headtitle_c h2{
       font-size: 2rem;
@@ -497,7 +639,7 @@ video{
       font-style: italic;
       color: #eef5db;
       text-align: center;
-      padding: .5rem;
+      margin: auto;
       padding-top: 1rem;
 
    }
@@ -514,10 +656,22 @@ video{
    .minipart_ca1{
       background-color: #333745;
       padding: 0;
+      max-width: 100%;
+   }
+   .minipart_ca1 span{
+      max-width: 100%;
+      padding: 0;
    }
    .minipart_cb1{
       background-color: #333745;
       padding: 0;
+      max-width: 100%;
+
+   }
+   .minipart_cb1 span{
+      max-width: 100%;
+      padding: 0;
+
    }
    .minipart_ca1 img{
       display: none;
@@ -536,11 +690,13 @@ video{
       font-weight: bold;
       text-align: left;
       color: #c7efcf;
-      font-size: 1rem;
       font-size: 1.5rem;
+
       padding: 1.5rem;
       margin: .5rem;
       background-color: #e63462;
+      border-radius: 8px;
+
    }
    .minipart_cb1 h4{
       display: block;
@@ -548,13 +704,24 @@ video{
       font-size: 1.5rem;
       text-align: left;
       color: #c7efcf;
+
       padding: 1.5rem;
       margin: .5rem;
       background-color: #e63462;
+      border-radius: 8px;
+
    }
    /*Section D*/
    .SectionD{
       font-family: Helvetica;
+      margin: 0;
+      padding: 0;
+   }
+   .container_d{
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+
    }
    .SectionD h2{
       font-size: 2rem;
@@ -567,6 +734,11 @@ video{
    }
    video{
       max-width: 100%;
+      padding: 0;
+      margin: 0;
+   }
+   .minipart_d{
+      max-width: 100%;
    }
    .minipart_da{
       display: none;
@@ -578,6 +750,8 @@ video{
       padding: 1rem;
       display: flex;
       justify-content: center;
+
+      font-size: .75rem;
       color: #eef5db;
       font-family: Helvetica
    }
