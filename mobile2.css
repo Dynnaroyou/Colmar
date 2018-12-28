@@ -1,0 +1,247 @@
+html{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   background-color: #333745;
+
+}
+body{
+   font-family: Helvetica, sans-serif;
+}
+.header_a{
+   display: none;
+}
+
+.mobile{
+   max-width: 100%;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-content: center;
+
+   padding: .5rem;
+   align-items: center;
+   background-color: #e63462;
+   border-bottom: 2px solid #fe5f55;
+}
+.mobile_nav span{
+   max-width: 100%;
+}
+.img_a img{
+   max-width: 100%;
+}
+/*1st Section*/
+.container_a{
+   font-family: Helvetica;
+   background-color: #333745;
+   border-bottom: 2px solid #fe5f55;
+
+}
+.text_a{
+   text-align: center;
+   padding: 1rem;
+   color: #eef5db;
+}
+.container_a .text_a h1{
+   font-size: 2.25rem;
+   font-style: italic;
+   font-weight: bold;
+   padding: .5rem;
+}
+.container_a .text_a p{
+   padding: .5rem;
+}
+.container_a .text_a  span{
+   display: block;
+   margin-top: .5rem;
+   padding: .5rem;
+   background-color: #e63462;
+}
+.text_a a{
+   font-weight: bold;
+   text-decoration: none;
+   color: #eef5db;
+}
+.img_a img{
+   max-width: 100%;
+   border-bottom: 2px solid #c7efcf;
+}
+/*2nd Section*/
+.container_b{
+   text-align: center;
+   font-family: Helvetica, sans-serif;
+   margin-top: 1rem;
+   border-bottom: 2px solid #c7efcf;
+
+}
+.minipart_b img{
+   display: none;
+}
+.minipart_b p{
+   display: none;
+}
+.minipart_b h2{
+   font-size: 2rem;
+   font-weight: bold;
+   font-style: italic;
+   color: #eef5db;
+}
+.minipart_b span{
+   display: none;
+
+}
+.minipart_b img{
+   display: none;
+}
+.minipart_db {
+   display: none;
+}
+.minipart_b1 #Html{
+   display: none;
+}
+.minipart_b1 #Mobile{
+   max-width: 100%;
+}
+.minipart_b1 span{
+   padding: 1rem;
+   margin-bottom: 1rem;
+}
+.minipart_b2a{
+   color: #eef5db;
+
+}
+.minipart_b2a h4{
+   font-size: 1.5rem;
+   padding: .5rem;
+   font-weight: bold;
+
+}
+.minipart_b2a a{
+   display: block;
+   background-color: #fe5f55;
+
+   padding:.5rem;
+   text-decoration: none;
+   color: #eef5db;
+   font-weight: bold;
+}
+.minipart_b2b{
+   color: #eef5db;
+}
+.minipart_b2b h4{
+   font-size: 1.5rem;
+   padding: .5rem;
+   font-weight: bold;
+
+}
+.minipart_b2b a{
+   display: block;
+   background-color: #fe5f55;
+
+   padding:.5rem;
+   text-decoration: none;
+   color: #eef5db;
+   font-weight: bold;
+
+}
+.minipart_b2c{
+   color: #eef5db;
+}
+.minipart_b2c h4{
+   font-size: 1.5rem;
+   color: #eef5db;
+   padding: .5rem;
+   font-weight: bold;
+
+}
+.minipart_b2c a{
+   display: block;
+   background-color: #fe5f55;
+
+   padding:.5rem;
+   text-decoration: none;
+   color: #eef5db;
+   font-weight: bold;
+
+}
+/*Section C- Courses*/
+.SectionC{
+   font-family: Helvetica, sans-serif;
+   border-bottom: 3px solid #fe5f55;
+   padding: .5rem;
+}
+.headtitle_c h2{
+   font-size: 2rem;
+   font-weight: bold;
+   font-style: italic;
+   color: #eef5db;
+   text-align: center;
+   padding: .5rem;
+   padding-top: 1rem;
+
+}
+.minipart_ca1 img{
+   display: none;
+}
+.minipart_ca1 p{
+   display: none;
+}
+.minipart_cb1 img{
+   display: none;
+}
+.minipart_cb1 p{
+   display: none;
+}
+.minipart_ca1 h4{
+   display: block;
+   font-weight: bold;
+   text-align: left;
+   color: #c7efcf;
+   font-size: 1rem;
+   font-size: 1.5rem;
+   padding: 1.5rem;
+   margin: .5rem;
+   background-color: #e63462;
+}
+.minipart_cb1 h4{
+   display: block;
+   font-weight: bold;
+   font-size: 1.5rem;
+   text-align: left;
+   color: #c7efcf;
+   padding: 1.5rem;
+   margin: .5rem;
+   background-color: #e63462;
+}
+/*Section D*/
+.SectionD{
+   font-family: Helvetica;
+}
+.SectionD h2{
+   font-size: 2rem;
+   font-weight: bold;
+   font-style: italic;
+   color: #eef5db;
+   text-align: center;
+   padding: .5rem;
+   padding-top: 1rem;
+}
+video{
+   max-width: 100%;
+}
+.minipart_da{
+   display: none;
+}
+.footer{
+   padding: 1rem;
+   display: flex;
+   justify-content: center;
+   color: #eef5db;
+   font-family: Helvetica
+}
+.footer_text2{
+   display: none;
+}

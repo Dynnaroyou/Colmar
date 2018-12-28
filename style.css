@@ -1,8 +1,12 @@
 html{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+
    font-family: Helvetica, sans-serif;
-   width: 100%;
-}
-p{
 }
 body{
    color: #333333;
@@ -18,7 +22,7 @@ body{
    justify-content: space-between;
    align-items: center;
    text-align: right;
-   max-width: auto;
+   background-size: cover;
    /*----> (is it wise to add this, for better effect?) position: fixed;*/
 
 }
@@ -75,6 +79,7 @@ nav{
    font-size: 1.5rem;
    text-align: left;
    color: #424242;
+   padding: 1rem;
 }
 .text_a span a{
    color: white;
@@ -90,7 +95,7 @@ nav{
    color: white;
 }
 .container_a img {
-   margin: 32px 24px;
+   margin: 2.5rem 2rem;
    padding: auto;
 }
 /*SectionB-Practicing*/
@@ -268,12 +273,10 @@ video{
 }
 .minipart_da p{
    margin-bottom: 2rem;
-   font-size: .5rem;
+   font-size: 1rem;
 }
 /*---Right side of SectionD*/
 .minipart_db{
-   margin: 0px;
-   padding: 0px;
    width: 75%;
    justify-content: flex-start;
 }
@@ -321,12 +324,4 @@ video{
    justify-content: flex-end;
    padding: .5rem;
    margin-right: .5rem;
-}
-@media only screen and (min-width: 270px), and (max-width: 640px){
-   html{
-      width: 100%;
-   }
-   .container_a {
-      display: none;
-   }
 }
